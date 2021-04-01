@@ -6,4 +6,4 @@ install:
   - pip install -U pylint
 
 script:
-  - pylint
+  - pylint *.py
