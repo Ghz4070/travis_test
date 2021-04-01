@@ -4,6 +4,7 @@ python:
 
 install:
   - pip install -U pylint
+  - pip install -U Flask
 
 script:
-  - pylint *.py
+  - pylint app.py
